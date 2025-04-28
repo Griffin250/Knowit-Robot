@@ -1,0 +1,176 @@
+.instruks{
+  margin-bottom: 30px;
+}
+
+.controllercontainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.controllercontainer img{
+  margin-right: 36px;
+  margin-left: 35px;
+}
+
+.pageheader{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 20px;
+}
+
+.container{
+  width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin:120px auto;
+  padding:20px 20px;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(44, 135, 200), rgba(220, 129, 188, 0.867));
+  border-radius: 5px;
+}
+
+.container h1{
+margin: 20px auto;
+}
+.input{
+  width: 300px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 12px auto;
+  padding: 5px 15px;
+  border: 0;
+  outline: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', 'sans-serif';
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+width: 70px;
+cursor: pointer;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+}
+.navbar ul{
+  padding: 10px 30px;
+  box-shadow: 0 0 10px rgb(186, 162, 162);
+  border-radius: 8px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0 36px;
+  color: black;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn{
+  border-radius: 12px;
+  border:0;
+  background: none;
+  box-shadow: 0 0 1px 0.5px rgb(210, 208, 208);
+  outline: 0;
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.login, .logout, .get-started, .register, .button, .register-btn-1{
+  margin: 12px 20px;
+  width: 100px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  padding: 12px 0;
+}
+.login-link{
+  font-size: 18px;
+}
+.login-link span{
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 20px;
+}
+.register-link{
+ font-size: 18px;
+}
+.register-link span{
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 20px;
+}
+.login-link span:hover{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.register-link span:hover{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.title{
+  text-align: center;
+  margin: 20px auto;
+}
+.home-wrapper, .ctrl-wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 180px auto 0;
+  justify-content: center;
+}
+.ctrl-wrapper button{
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  margin: 25px auto;
+}
+.ctlr-buttons{
+  display: flex;
+  margin: 50px auto;
+  cursor: pointer;
+}
+.footer{
+text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  padding: 8px;
+  background: linear-gradient(to right, rgb(137, 89, 186), rgb(55, 143, 190));
+}
+.active{
+  color: orangered;
+  opacity: 0.8;
+}
+.active button{
+  box-shadow: 0 0 1px 0.5px orangered;
+  background: none;
+}
+.not-found{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 180px auto 0;
+  justify-content: center;
+}
